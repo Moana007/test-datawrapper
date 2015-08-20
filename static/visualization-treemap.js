@@ -1,7 +1,7 @@
 (function () {
 
     dw.visualization.register('visualization-treemap','raphael-chart', {
-  
+  console.log("TEST-COUCOU");
         render: function(el) {
 
             el = $(el);
