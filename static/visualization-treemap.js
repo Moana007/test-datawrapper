@@ -1,7 +1,7 @@
 
 (function () {
 
-    dw.visualization.register('bubble-chart', {
+    dw.visualization.register('bubble-chart','raphael-chart' {
 
         render: function(el) {
 
