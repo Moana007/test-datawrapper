@@ -1,8 +1,12 @@
 
-(function () {
+//(function () {
 
-    dw.visualization.register('bubble-chart','raphael-chart', {
-
+  //  dw.visualization.register('bubble-chart','raphael-chart', {
+  
+(function(){
+     var Treemap = Datawrapper.Visualizations.Treemap = function() {  };
+    _.extend(Treemap.prototype, Datawrapper.Visualizations.RaphaelChart.prototype, {
+        
         render: function(el) {
 
             el = $(el);
