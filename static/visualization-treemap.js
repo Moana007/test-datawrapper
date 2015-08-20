@@ -83,6 +83,5 @@
             renderNode(tree, 0);
         }
     });
-    });
 
 }).call(this);
