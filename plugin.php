@@ -26,7 +26,7 @@ class DatawrapperPlugin_VisualizationTreemap extends DatawrapperPlugin {
                 "local" => "vendor/d3.treemap.js"
                                 ),
                                 array(
-                "local" => "../dw.js/dw-2.0.js"
+                "local" => "vendor/dw-2.0.js"
                                 )
             ),
             /*
