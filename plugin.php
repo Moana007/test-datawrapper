@@ -16,7 +16,9 @@ class DatawrapperPlugin_VisualizationTreemap extends DatawrapperPlugin {
              */
             "title" => "Treemap",
             "extends" => "raphael-chart",
-
+            "order" => 70,
+            "dimensions" => 1,
+            "color-by" => "hierarchy",
             /*
              * Optional: libraries that are used by the visualization.
              */
