@@ -1,10 +1,6 @@
 
 (function () {
 
-    var Treemap = Datawrapper.Visualizations.Treemap = function() { };
-
-    _.extend(Treemap.prototype, Datawrapper.Visualizations.RaphaelChart.prototype, {
-
     dw.visualization.register('visualization-treemap','raphael-chart', {
   
         render: function(el) {
