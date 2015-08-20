@@ -227,7 +227,7 @@
             var me = this,
                 row = 0;
 
-            var filterUI = me.getFilterUI(row);
+            var filterUI = getFilterUI(row);
             if (filterUI) $('#header').append(filterUI);
 
             var c = me.initCanvas();
