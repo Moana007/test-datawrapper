@@ -23,10 +23,6 @@ class DatawrapperPlugin_VisualizationTreemap extends DatawrapperPlugin {
             "libraries" => array(array(
                 "local" => "vendor/d3.treemap.js"
             )),
-
-            "order" => 70,
-            "dimensions" => 1,
-            "color-by" => "hierarchy",
             /*
              * The config options that are displayed to the user in the right sidebar
              * in the chart editor. In this case three options are defined for assigning
