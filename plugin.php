@@ -15,7 +15,7 @@ class DatawrapperPlugin_VisualizationTreemap extends DatawrapperPlugin {
              * localizable.
              */
             "title" => "Treemap",
-            "extends": "raphael-chart",
+            "extends" => "raphael-chart",
 
             /*
              * Optional: libraries that are used by the visualization.
