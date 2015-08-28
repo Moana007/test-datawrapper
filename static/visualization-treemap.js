@@ -1,14 +1,14 @@
 (function () {
 
     dw.visualization.register('visualization-treemap','raphael-chart', {
-  console.log("TEST-COUCOU");
+
         render: function(el) {
 
             el = $(el);
             this.setRoot(el);
             var me = this,
                 row = 0;
-
+            console.log("TEST-COUCOU");
             var filterUI = getFilterUI(row);
             if (filterUI) $('#header').append(filterUI);
 
