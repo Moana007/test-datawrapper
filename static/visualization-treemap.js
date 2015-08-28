@@ -8,7 +8,7 @@
             this.setRoot(el);
             var me = this,
                 row = 0;
-            console.log("TEST-COUCOU");
+                
             var filterUI = getFilterUI(row);
             if (filterUI) $('#header').append(filterUI);
 
